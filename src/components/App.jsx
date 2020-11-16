@@ -15,7 +15,7 @@ function App() {
     setItems((prevItems) => {
       return [...prevItems, inputText];
     });
-    //setInputText("");
+    //setInputText(""); moved
   }
 
   function deleteItem(id) {
